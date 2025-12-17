@@ -1,0 +1,39 @@
+# Nova Sonic 多设备管理系统 - Python 依赖包
+
+# 核心框架
+asyncio
+websockets>=15.0.1
+aiohttp>=3.8.6
+aiohttp-cors>=0.7.0
+
+# AWS 服务
+boto3>=1.38.2
+aws-sdk-bedrock-runtime
+smithy-aws-core
+
+# 数据库
+asyncpg>=0.29.0
+
+# 认证和安全
+PyJWT>=2.8.0
+bcrypt>=4.1.2
+
+# 数据处理
+numpy>=2.2.4
+scipy>=1.15.2
+rx>=3.2.0
+
+# 集成服务
+mcp>=1.8.1
+strands-agents>=0.1.6
+requests>=2.32.3
+
+# 音频处理 (可选 - 如果安装失败可跳过)
+pyaudio>=0.2.11
+
+# 数据序列化
+dataclasses-json>=0.5.7
+
+# 开发和测试
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

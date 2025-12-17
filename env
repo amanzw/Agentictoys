@@ -1,0 +1,25 @@
+# AWS 基础配置 (必需)
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export AWS_DEFAULT_REGION=us-east-1
+# 数据库配置 (PostgreSQL)
+export DB_HOST=espressifwithnovapublic.ct2f2awsp16m.us-east-1.rds.amazonaws.com
+export DB_PORT=5432
+export DB_NAME=nova_sonic
+export DB_USER=postgres
+export DB_PASSWORD=
+# Python Server 配置
+export PYTHON_HOST=localhost
+export PYTHON_HTTP_PORT=8080
+export PYTHON_WS_PORT=8081
+# React Management 配置
+export REACT_HOST=localhost
+export REACT_PORT=3000
+export REACT_APP_PYTHON_HOST=localhost
+export REACT_APP_PYTHON_HTTP_PORT=8080
+export REACT_APP_PYTHON_WS_PORT=8081
+# 安全配置
+#export JWT_SECRET_KEY="your-secure-jwt-secret"
+# 用户管理配置
+export ALLOW_DEVICE_REGISTRATION=true    # 允许设备端注册新用户
+export ALLOW_DEVICE_PASSWORD_CHANGE=true # 允许设备端修改密码

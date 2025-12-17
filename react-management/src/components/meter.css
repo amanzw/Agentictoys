@@ -1,0 +1,36 @@
+.metric {
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #e9ebed;
+    border-radius: 8px;
+    background-color: #fafbfc;
+}
+
+.metric-label {
+    font-size: 14px;
+    color: #5f6b7a;
+    margin-bottom: 8px;
+}
+
+.metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0972d3;
+}
+
+.status {
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.status.running {
+    background-color: #d5f2d5;
+    color: #037f0c;
+}
+
+.status.stopped {
+    background-color: #ffeaea;
+    color: #d91515;
+}

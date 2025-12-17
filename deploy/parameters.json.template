@@ -1,0 +1,30 @@
+[
+  {
+    "ParameterKey": "EC2InstanceType",
+    "ParameterValue": "c6i.2xlarge"
+  },
+  {
+    "ParameterKey": "DBInstanceClass", 
+    "ParameterValue": "db.t3.micro"
+  },
+  {
+    "ParameterKey": "DBName",
+    "ParameterValue": "nova_sonic"
+  },
+  {
+    "ParameterKey": "DBUsername",
+    "ParameterValue": "postgres"
+  },
+  {
+    "ParameterKey": "DBPassword",
+    "ParameterValue": "CHANGE_ME_SECURE_PASSWORD"
+  },
+  {
+    "ParameterKey": "VpcCidr",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "nova-sonic-key"
+  }
+]

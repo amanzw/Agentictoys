@@ -1,0 +1,51 @@
+.event-log {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e9ebed;
+    border-radius: 8px;
+    background-color: #fafbfc;
+}
+
+.event-item {
+    border-left: 4px solid #e9ebed;
+    background-color: white;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.event-item.in {
+    border-left-color: #0972d3;
+}
+
+.event-item.out {
+    border-left-color: #037f0c;
+}
+
+.event-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background-color: #f2f3f3;
+    border-bottom: 1px solid #e9ebed;
+    font-size: 12px;
+}
+
+.event-timestamp {
+    color: #5f6b7a;
+    font-family: monospace;
+}
+
+.event-content {
+    padding: 8px 12px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.event-content pre {
+    margin: 0;
+    font-size: 11px;
+    color: #232f3e;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
